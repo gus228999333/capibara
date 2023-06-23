@@ -1,0 +1,80 @@
+<html>
+    <body>
+        <nav>
+            <a href="">Стилі бою</a>
+            <a href="">Расси</a>
+        </nav>
+        <main>
+            <h1>Рідкостті фруктів</h1>
+            <div class="container">
+                <div class="text">
+                    <p>Міфічні</p>
+                    <p class="right"><i>Легендарні</i></p>
+                    <p>Рідкісні</p>
+                    <p class="right"><i>неЗвичайні</i></p>
+                    <p>Звичайні</p>
+                </div>
+            </div>
+        </main>
+    </body>
+     <style>
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: lightblue;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px dashed navy;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: royalblue;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+}
+
+.text {
+    width: 300px;
+}
+.right {
+    text-align: right;
+}
+
+.text p:hover {
+    color: navy;
+    font-size: 45px;
+}
+
+.text .right:hover {
+    color: darkorange;
+}
+</style>
