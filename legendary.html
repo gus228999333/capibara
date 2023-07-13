@@ -1,59 +1,51 @@
-
 <html>
     <body>
         <nav>
-            <a href="">Стилі бою</a>
-            <a href="">Расси</a>
+            <a href="">Сезонні акції</a>
+            <a href="">Контакти</a>
         </nav>
         <main>
-            <h1>Легендарні</h1>
+            <h1>рідкісні</h1>
             <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>blizzard</p>
-            </div>
-
-            <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>paw</p>
-            </div>
-
-            <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>rumble</p>
-            </div>
-
-            <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>portal</p>
-            </div>
-
-            <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>phoenix</p>
-            </div>
-
-            <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>spider</p>
-            </div>
-
-            <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>love</p>
-            </div>
-
-            <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>buddha</p>
-            </div>
-            <div class="container">
-             <img src="https://img.freepik.com/free-photo/lavender-field-at-sunset-near-valensole_268835-3910.jpg" width="150px" height="150px"/>
-             <p>quake</p>
+                <div class="gallery">
+                    <img src="/uploads/2021/02/landscape-4347888_1920_0_1613114773.png"/>
+                      <p>blizzard</p>
+                    <img src="/uploads/2021/02/mountains-4641428_1920_0_1613114773.png"/>
+                    <img src="/uploads/2021/02/landscape-4347888_1920_0_1613114773.png"/>
+                      <p>paw</p>
+                    <img src="/uploads/2021/02/mountains-4641428_1920_0_1613114773.png"/>
+                   
+                    <img src="/uploads/2021/02/mountains-5246545_1920_0_1613114773.png"/>
+                     <p>rumble</p>
+                    <img src="/uploads/2021/02/nature-4353699_1920_0_1613114773.png"/>
+                    <img src="/uploads/2021/02/holiday-4320647_1920_0_1613117625.png"/>
+                     <p>portal</p>
+                    <img src="/uploads/2021/02/rocky-mountains-1149778_1920_0_1613117625.png"/>
+                     <img src="/uploads/2021/02/landscape-4347888_1920_0_1613114773.png"/>
+                      <p>phoenix</p>
+                    <img src="/uploads/2021/02/mountains-4641428_1920_0_1613114773.png"/>
+                    <img src="/uploads/2021/02/landscape-4347888_1920_0_1613114773.png"/>
+                      <p>spider</p>
+                    <img src="/uploads/2021/02/mountains-4641428_1920_0_1613114773.png"/>
+                   
+                    <img src="/uploads/2021/02/mountains-5246545_1920_0_1613114773.png"/>
+                     <p>love</p>
+                    <img src="/uploads/2021/02/nature-4353699_1920_0_1613114773.png"/>
+                    <img src="/uploads/2021/02/holiday-4320647_1920_0_1613117625.png"/>
+                     <p>buddha</p>
+                    <img src="/uploads/2021/02/rocky-mountains-1149778_1920_0_1613117625.png"/>
+                    <img src="/uploads/2021/02/holiday-4320647_1920_0_1613117625.png"/>
+                     <p>quake</p>
+                    <img src="/uploads/2021/02/rocky-mountains-1149778_1920_0_1613117625.png"/>
+                </div>
+                <div class="text">
+                
+                </div>
             </div>
         </main>
     </body>
-    <sttyle>
-      body {
+    <style>
+        body {
     font-family: sans-serif;
 }
 
@@ -66,6 +58,7 @@ p {
     font-size: 40px;
     color: lightblue;
 }
+
 
 nav {
     display: flex;
@@ -81,6 +74,7 @@ nav a {
 }
 
 .container {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
 }
@@ -97,19 +91,20 @@ nav a {
     height: 200px;
 }
 
+.gallery img:hover {
+    opacity: 1;
+    border: 6px solid navy;
+    width: 170px;
+    height: 220px;
+    padding: 5px;
+    transition: 0,5 ease-out;
+}
+
 .text {
     width: 300px;
 }
+
 .right {
     text-align: right;
 }
-
-.text p:hover {
-    color: navy;
-    font-size: 45px;
-}
-
-.text .right:hover {
-    color: darkorange;
-}
-    </sttyle>
+    </style>
